@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
+    <style>
+      body {
+        background-color: #2a9d8f;
+        color: #8ecae6;
+      }
+      form {
+        font-size: 25px;
+      }
+      form input {
+        width: 250px;
+        font-size: 25px;
+        margin: 10px;
+      }
+      select {
+        height: 70px;
+        width: 250px;
+        font-size: 25px;
+        margin: 10px;
+      }
+    </style>
     <div class="nav">
       <a href="Index.html">Home</a>
       <a href="Prices.html">View the most expensive cards</a>
@@ -25,12 +45,15 @@
         >Confirm Password: <input type="password" name="" id="confirmpassword"
       /></label>
       <br />
+      <h3>Reason for joining</h3>
       <select name="" id="">
         <option value="">*Reason</option>
         <option value="">Battle others</option>
         <option value="">Find trading partners</option>
         <option value=""></option>
       </select>
+      <br />
+      <input type="submit" value="Submit" />
     </form>
     <h1>Already have a account? Login here</h1>
     <form action="">
@@ -39,6 +62,8 @@
       <label for=""
         >Password: <input type="password" name="" id="password"
       /></label>
+      <br />
+      <input type="submit" value="Login" />
     </form>
   </body>
 </html>
