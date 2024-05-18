@@ -6,19 +6,34 @@
     <title>Most expensive cards</title>
   </head>
   <body>
+    <style>
+      body {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      img {
+        transition-property: all;
+        transition-duration: 2s;
+      }
+
+      img:hover {
+        transform: scale(130%);
+      }
+    </style>
     <h1>Top 5 most expensive Magic the Gathering cards</h1>
     <table style="border: solid black">
       <tr>
         <td>Card</td>
         <td>Image</td>
-        <td>Price</td>
       </tr>
       <tr>
         <td>The one Ring</td>
         <td>
           <img src="Images/AP_Blog_MTG_Cards_One_Ring.jpg" alt="The one ring" />
         </td>
-        <td>Price</td>
       </tr>
       <tr>
         <td>Black Lotus</td>
@@ -28,7 +43,6 @@
             alt="The one ring"
           />
         </td>
-        <td>Price</td>
       </tr>
       <tr>
         <td>Copy Artifact</td>
@@ -38,7 +52,6 @@
             alt="The one ring"
           />
         </td>
-        <td>Price</td>
       </tr>
       <tr>
         <td>Mox Saphire</td>
@@ -48,14 +61,12 @@
             alt="The one ring"
           />
         </td>
-        <td>Price</td>
       </tr>
       <tr>
         <td>Mox Ruby</td>
         <td>
           <img src="Images/AP_Blog_MTG_Cards_Mox_Ruby.jpg" alt="The one ring" />
         </td>
-        <td>Price</td>
       </tr>
     </table>
   </body>
