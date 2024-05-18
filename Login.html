@@ -9,15 +9,25 @@
   <body>
     <style>
       body {
-        background-color: #2a9d8f;
+        background-image: url(Images/MTG.jpg);
         color: #8ecae6;
       }
+      .main {
+        background-color: #023047;
+        padding: 10px;
+      }
+      h1 {
+        font-size: 60px;
+      }
       form {
-        font-size: 25px;
+        background-color: #2a9d8f;
+        font-size: 45px;
+        border: solid #ffb703;
+        padding: 15px;
       }
       form input {
-        width: 250px;
-        font-size: 25px;
+        width: 300px;
+        font-size: 30px;
         margin: 10px;
       }
     </style>
@@ -25,42 +35,45 @@
       <a href="Index.html">Home</a>
       <a href="Prices.html">View the most expensive cards</a>
     </div>
-    <h1>Sign up for our sight today</h1>
-    <form action="">
-      <label for="name"
-        >Username: <input type="text" name="" id="name"
-      /></label>
-      <br />
-      <label for="password"
-        >Password: <input type="password" id="password"
-      /></label>
-      <br />
-      <label for="confirmpassword"
-        >Confirm Password: <input type="password" name="" id="confirmpassword"
-      /></label>
-      <br />
-      <h3>Favorite thing about Magic</h3>
-      <select
-        name=""
-        id=""
-        style="height: 70px; width: 300px; font-size: 25px; margin: 10px"
-      >
-        <option value="">*Select an Option*</option>
-        <option value="">Battle others</option>
-        <option value="">Find trading partners</option>
-      </select>
-      <br />
-      <input type="submit" value="Submit" />
-    </form>
-    <h1>Already have a account? Login here</h1>
-    <form action="">
-      <label for="name">Username: <input type="text" id="name" /></label>
-      <br />
-      <label for=""
-        >Password: <input type="password" name="" id="password"
-      /></label>
-      <br />
-      <input type="submit" value="Login" />
-    </form>
+    <div class="main">
+      <h1>Sign up for our sight today</h1>
+      <form action="">
+        <label for="name"
+          >Username: <input type="text" name="" id="name"
+        /></label>
+        <br />
+        <label for="password"
+          >Password: <input type="password" id="password"
+        /></label>
+        <br />
+        <label for="confirmpassword"
+          >Confirm Password:
+          <input type="password" name="" id="confirmpassword"
+        /></label>
+        <br />
+        <h3>Favorite thing about Magic</h3>
+        <select
+          name=""
+          id=""
+          style="height: 70px; width: 300px; font-size: 25px; margin: 5px"
+        >
+          <option value="">*Select an Option*</option>
+          <option value="">Battle others</option>
+          <option value="">Find trading partners</option>
+        </select>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+      <h1>Already have a account? Login here</h1>
+      <form action="">
+        <label for="name">Username: <input type="text" id="name" /></label>
+        <br />
+        <label for=""
+          >Password: <input type="password" name="" id="password"
+        /></label>
+        <br />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
   </body>
 </html>
