@@ -1,10 +1,15 @@
 .nav {
   display: flex;
-  padding: 10px;
-  font-size: 25px;
+  padding: 20px;
+  font-size: 30px;
   background-color: #8ecae6;
 }
 
 div a {
   margin-right: 20px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
