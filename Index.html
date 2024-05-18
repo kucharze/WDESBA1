@@ -12,11 +12,28 @@
         background-color: #2a9d8f;
         color: #8ecae6;
       }
+      body p {
+        font-size: 25px;
+      }
+      body > h2 {
+        font-size: 30px;
+      }
       .cards {
         display: flex;
       }
       img {
         height: 250px;
+      }
+      .cardtype {
+        margin: 20px;
+        font-size: 20px;
+        transition-property: all;
+        transition-duration: 2s;
+      }
+      .cardtype:active {
+        font-size: 40px;
+        transform: scale(200%);
+        background-color: blue;
       }
     </style>
     <h1>Magic the gathering</h1>
@@ -28,23 +45,47 @@
     <h2>
       Welcome to the greatest hub for Magic the gathering players like yourself
     </h2>
-    <div>
+    <div style="width: 1000px">
       <p>
         Magic the gathering is a card game that was released in 1993 by Wizards
         of the Coast
       </p>
     </div>
-    <div>
+    <div style="width: 1000px">
       <p>
         Players in a game of Magic are represented by powerful, dueling wizards
-        called Planeswalkers.
+        called Planeswalkers. They can cast different types of magical spells.
+        Some have a one time effect, while others stay on the battlefield to
+        give a constant bonus.
       </p>
     </div>
-    <h2>Card types</h2>
+    <h2>Spell types</h2>
+    <h3>Click to enlarge</h3>
     <div class="cards">
-      <img src="Images/AP_Blog_MTG_Cards_Black_Lotus.jpg" alt="" />
-      <img src="Images/AP_Blog_MTG_Cards_Black_Lotus.jpg" alt="" />
-      <img src="Images/AP_Blog_MTG_Cards_Black_Lotus.jpg" alt="" />
+      <div class="cardtype">
+        <h2>Creature Type</h2>
+        <img src="Images/Creature.jpg" alt="" />
+      </div>
+      <div class="cardtype">
+        <h2>Sourcery type</h2>
+        <img src="Images/sourcery.jpg" alt="" />
+      </div>
+      <div class="cardtype">
+        <h2>Instant type</h2>
+        <img src="Images/Instant.jpg" alt="" />
+      </div>
+      <div class="cardtype">
+        <h2>Enchantment type</h2>
+        <img src="Images/Enchantment.jpg" alt="" />
+      </div>
+      <div class="cardtype">
+        <h2>Artifact type</h2>
+        <img src="Images/artifact.jpg" alt="" />
+      </div>
+      <div class="cardtype">
+        <h2>Planeswalker type</h2>
+        <img src="Images/planeswalker.jpg" alt="" />
+      </div>
     </div>
   </body>
 </html>
