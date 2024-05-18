@@ -15,6 +15,7 @@
       }
 
       img {
+        height: 400px;
         transition-property: all;
         transition-duration: 2s;
       }
@@ -22,12 +23,17 @@
       img:hover {
         transform: scale(130%);
       }
+      .title {
+        color: black;
+        border-bottom: solid black 2px;
+        font-size: 50px;
+      }
     </style>
     <h1>Top 5 most expensive Magic the Gathering cards</h1>
     <table style="border: solid black">
       <tr>
-        <td>Card</td>
-        <td>Image</td>
+        <td class="title">Card</td>
+        <td class="title">Image</td>
       </tr>
       <tr>
         <td>The one Ring</td>
