@@ -2,7 +2,11 @@
 
 # https://github.com/kucharze/WDESBA1
 
-This file combines three seperate HTML files into one big site involving Magic the gathering. Threre are three main pages to the website
+This file combines three seperate HTML files into one big site involving Magic the gathering. Threre are three main pages to the website.
+
+### Technical specifications
+
+This project has three main HTML pages. Each one has interal and inline styling. There is one CSS page with external stylings. There is also a folder that contains all pictures used.
 
 ### The main page
 
